@@ -93,7 +93,7 @@ main {
     padding-top: 0;                
     padding-bottom: 2em;            
     display: block;           
-    background-color:lightyellow;                  
+    background-color:rgb(188, 229, 254);                  
   }
   
 main h2,
@@ -161,20 +161,23 @@ nav ul {
     padding-right: 1em;
     width: 100%;
     border-bottom: 1px solid #231814;  
+    color: black;
 }
 
-  
+.menulist nav a{
+  color: black;
+}
 
 nav a {
     text-decoration: none;  
 }
 
 nav a:link {
-    color: #FEF6C2;  
+    color:black;  
   }
   
   nav a:visited {
-    color: #D2B48C;  
+    color:black;  
   }
   
   nav a:hover {
@@ -213,7 +216,7 @@ body {
 .onethird { }
 
 #wrapper {             
-  background-color: #231814; 
+  background-color: lightgrey; 
   padding: 0;      
 }
 
@@ -248,7 +251,7 @@ img {
 }
 
 header {
-  background-color: #D2B48C;
+  background-color:lightgray;
   color: #231814; 
   background-image: url('logo.JPG');
   background-repeat: no-repeat;
@@ -280,7 +283,7 @@ main {
   padding-top: 0;                
   padding-bottom: 2em;            
   display: block;           
-  background-color:lightyellow;                  
+  background-color:rgb(188, 229, 254);                  
 }
 
 main h2,
@@ -302,11 +305,11 @@ h1 {
 }
 
 h2 {
-  color: #8C3826;
+  color:black;
 }
 
 h3 {
-  color: #8C3826;
+  color: black;
 }
 
 dt {
@@ -314,7 +317,7 @@ dt {
 }
 
 h4 {
-  background-color: #D2B48C;  
+  background-color: lightsteelblue;  
   font-size: 1.2em;           
   padding-left: 0.25em;        
   padding-bottom: 0.5em;   
@@ -351,15 +354,15 @@ nav a {
 }
 
 nav a:link {
-  color: #FEF6C2;  
+  color: black;  
 }
 
 nav a:visited {
-  color: #D2B48C;  
+  color: black;  
 }
 
 nav a:hover {
-  color: #CC9933;  
+  color: black;  
 }
 
 footer {
@@ -393,7 +396,7 @@ td, th {
 }
 
 tr:nth-of-type(odd) {
-  background-color: #D2B48E;  
+  background-color: lightslategrey;  
 }
 
 /* Media Query for screens 600px or wider */
